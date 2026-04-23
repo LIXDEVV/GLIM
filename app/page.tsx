@@ -69,9 +69,9 @@ export default function Home() {
   const ecosystem: EcosystemItem[] = [
     {
       name: 'Telegram',
-      description: 'Talk to Blob',
+      description: 'Talk to Glim',
       icon: '✈️',
-      link: 'https://www.youtube.com/'
+      link: 'https://t.me/Glimpse_AI_bot'
     },
     {
       name: 'X (Twitter)',
@@ -83,37 +83,37 @@ export default function Home() {
       name: 'Solana',
       description: 'Blockchain powered',
       icon: '◎',
-      link: 'https://www.youtube.com/'
+      link: 'https://github.com/solana-labs/solana/tree/master/programs/bpf_loader/gen-syscall-list'
     },
     {
       name: '0G',
       description: 'Data layer',
       icon: '⚡',
-      link: 'https://www.youtube.com/'
+      link: ''
     },
     {
       name: 'Jupiter Station',
       description: 'Swap & trade',
       icon: '🪐',
-      link: 'https://www.youtube.com/'
+      link: 'https://developers.jup.ag/'
     },
     {
       name: 'Neurix',
       description: 'AI integration',
       icon: '🤖',
-      link: 'https://www.youtube.com/'
+      link: 'https://www.neurix.co/'
     },
     {
       name: 'Pump.fun',
       description: 'Token launch',
       icon: '🚀',
-      link: 'https://www.youtube.com/'
+      link: 'https://pump.fun/'
     },
     {
       name: 'DexScreener',
       description: 'Trading charts',
       icon: '📊',
-      link: 'https://www.youtube.com/'
+      link: 'https://dexscreener.com/'
     }
   ];
 
@@ -232,7 +232,7 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition flex items-center justify-center gap-2">
+                <a href="https://t.me/Glimpse_AI_bot" target="_blank" rel="noopener noreferrer" className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition flex items-center justify-center gap-2">
                   <span>💚</span> Talk to GLIM
                 </a>
                 <a href="https://docs.example.com" target="_blank" rel="noopener noreferrer" className="border border-foreground text-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-50 transition">
@@ -398,19 +398,19 @@ export default function Home() {
               </button>
             </div>
             <div className="flex gap-4 text-sm text-muted-foreground flex-wrap justify-center md:justify-end">
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">PRIVACY</a>
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition flex items-center gap-1">
+              <a href="https://github.com/search?q=glim+ai&type=code" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">PRIVACY</a>
+              <a href="https://t.me/Glimpse_AI_bot" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition flex items-center gap-1">
                 <span>✈️</span> TELEGRAM
               </a>
               <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition flex items-center gap-1">
                 <span>𝕏</span> X
               </a>
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">SOLANA</a>
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">0G</a>
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">JUPITER STATION</a>
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">NEURIX</a>
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">PUMP.FUN</a>
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">DEXSCREENER</a>
+              <a href="https://github.com/solana-labs/solana/tree/master/programs/bpf_loader/gen-syscall-list" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">SOLANA</a>
+              <a href="" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">0G</a>
+              <a href="https://developers.jup.ag/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">JUPITER STATION</a>
+              <a href="https://www.neurix.co/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">NEURIX</a>
+              <a href="https://pump.fun/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">PUMP.FUN</a>
+              <a href="https://dexscreener.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">DEXSCREENER</a>
             </div>
           </div>
         </div>
