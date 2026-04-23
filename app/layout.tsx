@@ -12,19 +12,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '[url=https://postimages.org/][img]https://i.postimg.cc/xq3g0gvs/favicon.jpg[/img][/url]',
+        url: 'https://ibb.co/qMKTKPvh',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '[url=https://postimages.org/][img]https://i.postimg.cc/xq3g0gvs/favicon.jpg[/img][/url]',
+        url: 'https://ibb.co/qMKTKPvh',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '[url=https://postimages.org/][img]https://i.postimg.cc/xq3g0gvs/favicon.jpg[/img][/url]',
+        url: 'https://ibb.co/qMKTKPvh',
         type: 'image/svg+xml',
       },
     ],
-    apple: '[url=https://postimages.org/][img]https://i.postimg.cc/xq3g0gvs/favicon.jpg[/img][/url]',
+    apple: 'https://ibb.co/qMKTKPvh',
   },
 }
 
