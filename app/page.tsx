@@ -185,7 +185,7 @@ export default function Home() {
 
             {/* CTA Button */}
             <div className="flex items-center gap-4">
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-2 bg-accent text-accent-foreground px-6 py-2 rounded-full font-semibold hover:bg-green-600 transition">
+              <a href="https://t.me/Glimpse_AI_bot" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-2 bg-accent text-accent-foreground px-6 py-2 rounded-full font-semibold hover:bg-green-600 transition">
                 <span>💚</span> Talk to GLIM
               </a>
 
@@ -232,7 +232,7 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition flex items-center justify-center gap-2">
+                <a href="https://t.me/Glimpse_AI_bot" target="_blank" rel="noopener noreferrer" className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition flex items-center justify-center gap-2">
                   <span>💚</span> Talk to GLIM
                 </a>
                 <a href="https://docs.example.com" target="_blank" rel="noopener noreferrer" className="border border-foreground text-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-50 transition">
