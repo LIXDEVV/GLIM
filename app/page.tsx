@@ -77,7 +77,7 @@ export default function Home() {
       name: 'X (Twitter)',
       description: 'Follow updates',
       icon: '𝕏',
-      link: 'https://www.youtube.com/'
+      link: 'https://x.com/GlimCompanion'
     },
     {
       name: 'Solana',
@@ -326,7 +326,7 @@ export default function Home() {
                 <span className="text-accent hover:text-green-700 transition text-sm font-medium">Learn More →</span>
               </a>
 
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
+              <a href="https://x.com/GlimCompanion" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
                 <h3 className="text-xl font-bold mb-4 text-foreground">Community & Governance</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   Blob is owned by its community. Token holders can vote on new features, ecosystem decisions, and the direction of development.
@@ -345,7 +345,7 @@ export default function Home() {
               <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
                 <h3 className="text-xl font-bold mb-4 text-foreground">Build on Blob</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                  Developers can build integrations and plugins on top of Blob. Join our developer community and create the future.
+                  Developers can build integrations and plugins on top of Glim. Join our developer community and create the future.
                 </p>
                 <span className="text-accent hover:text-green-700 transition text-sm font-medium">Developer Docs →</span>
               </a>
@@ -402,7 +402,7 @@ export default function Home() {
               <a href="https://t.me/Glimpse_AI_bot" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition flex items-center gap-1">
                 <span>✈️</span> TELEGRAM
               </a>
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition flex items-center gap-1">
+              <a href="https://x.com/GlimCompanion" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition flex items-center gap-1">
                 <span>𝕏</span> X
               </a>
               <a href="https://github.com/solana-labs/solana/tree/master/programs/bpf_loader/gen-syscall-list" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">SOLANA</a>
