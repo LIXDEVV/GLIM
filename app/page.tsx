@@ -318,8 +318,8 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
-                <h3 className="text-xl font-bold mb-4 text-foreground">How Blob Works</h3>
+              <a href="https://github.com/search?q=glim+ai&type=code" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
+                <h3 className="text-xl font-bold mb-4 text-foreground">How Glim Works</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   Blob is an AI agent that lives on Telegram. It uses advanced language models to understand and respond to your messages. Every interaction helps Blob learn and improve.
                 </p>
@@ -334,7 +334,7 @@ export default function Home() {
                 <span className="text-accent hover:text-green-700 transition text-sm font-medium">Join Community →</span>
               </a>
 
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
+              <a href="https://www.neurix.co/" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
                 <h3 className="text-xl font-bold mb-4 text-foreground">Security & Privacy</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   Your conversations with Blob are encrypted and private. We never sell your data. Your privacy is paramount.
