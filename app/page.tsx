@@ -24,7 +24,7 @@ export default function Home() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText('...pump');
+    navigator.clipboard.writeText('DEG7sgkeqqKPYSru9NqJNtxZmJth2ZnnkKPtKCSspump');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -107,7 +107,7 @@ export default function Home() {
       name: 'Pump.fun',
       description: 'Token launch',
       icon: '🚀',
-      link: 'https://pump.fun/coin/7Z2hwBJ1XZjX8MbXLuXdh4jQTrCX574LfbEbFwjapump'
+      link: 'https://pump.fun/coin/DEG7sgkeqqKPYSru9NqJNtxZmJth2ZnnkKPtKCSspump'
     },
     {
       name: 'DexScreener',
