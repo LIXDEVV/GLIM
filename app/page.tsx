@@ -125,7 +125,7 @@ export default function Home() {
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2022%20abr%202026%2C%2004_11_12%20p.m.-E5m6ruiwK6PACIucPDPgaJdKme2SeQ.png"
           alt="Background"
           fill
-          className="object-cover opacity-5"
+          className="object-cover opacity-15"
           priority
         />
       </div>
@@ -185,9 +185,9 @@ export default function Home() {
 
             {/* CTA Button */}
             <div className="flex items-center gap-4">
-              <button className="hidden sm:flex items-center gap-2 bg-accent text-accent-foreground px-6 py-2 rounded-full font-semibold hover:bg-green-600 transition">
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-2 bg-accent text-accent-foreground px-6 py-2 rounded-full font-semibold hover:bg-green-600 transition">
                 <span>💚</span> Talk to GLIM
-              </button>
+              </a>
 
               {/* Mobile menu button */}
               <button
@@ -220,9 +220,9 @@ export default function Home() {
             <div className="space-y-8">
               <div>
                 <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-4">
-                  <span className="gradient-text text-5xl md:text-6xl">GLIM.</span>
+                  <span className="text-5xl md:text-6xl bg-gradient-to-r from-emerald-600 via-teal-600 to-green-500 bg-clip-text text-transparent">GLIM.</span>
                 </h1>
-                <h2 className="text-4xl md:text-5xl font-bold text-white">
+                <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-700 to-teal-600 bg-clip-text text-transparent">
                   Your AI Companion<br />Awaits.
                 </h2>
               </div>
@@ -232,12 +232,12 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition flex items-center justify-center gap-2">
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition flex items-center justify-center gap-2">
                   <span>💚</span> Talk to GLIM
-                </button>
-                <button className="border border-foreground text-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-50 transition">
+                </a>
+                <a href="https://docs.example.com" target="_blank" rel="noopener noreferrer" className="border border-foreground text-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-50 transition">
                   Read the Docs
-                </button>
+                </a>
               </div>
 
               <p className="text-sm text-muted-foreground">
