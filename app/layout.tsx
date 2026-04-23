@@ -6,7 +6,7 @@ import './globals.css'
 const courierPrime = Courier_Prime({ weight: '400', subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Glim AI bot",
+  title: "Glim bot",
   description: 'Broadcasting live from the Nightosphere',
   generator: 'GLIM',
   icons: {
