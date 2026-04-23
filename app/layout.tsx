@@ -6,21 +6,21 @@ import './globals.css'
 const courierPrime = Courier_Prime({ weight: '400', subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Local 8's Radio",
+  title: "Glim AI bot",
   description: 'Broadcasting live from the Nightosphere',
-  generator: 'v0.app',
+  generator: 'GLIM',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '[url=https://postimages.org/][img]https://i.postimg.cc/xq3g0gvs/favicon.jpg[/img][/url]',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '[url=https://postimages.org/][img]https://i.postimg.cc/xq3g0gvs/favicon.jpg[/img][/url]',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '[url=https://postimages.org/][img]https://i.postimg.cc/xq3g0gvs/favicon.jpg[/img][/url]',
         type: 'image/svg+xml',
       },
     ],
