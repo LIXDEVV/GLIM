@@ -24,7 +24,7 @@ export default function Home() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText('6HnsbhB1PijkESfrYdbvkBmpYfM1ZtWsQnU5jqXWpump');
+    navigator.clipboard.writeText('...pump');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
