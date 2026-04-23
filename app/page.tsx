@@ -24,7 +24,7 @@ export default function Home() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText('...pump');
+    navigator.clipboard.writeText('7Z2hwBJ1XZjX8MbXLuXdh4jQTrCX574LfbEbFwjapump');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -107,7 +107,7 @@ export default function Home() {
       name: 'Pump.fun',
       description: 'Token launch',
       icon: '🚀',
-      link: 'https://pump.fun/'
+      link: 'https://pump.fun/coin/7Z2hwBJ1XZjX8MbXLuXdh4jQTrCX574LfbEbFwjapump'
     },
     {
       name: 'DexScreener',
@@ -223,7 +223,7 @@ export default function Home() {
                   <span className="text-5xl md:text-6xl bg-gradient-to-r from-emerald-600 via-teal-600 to-green-500 bg-clip-text text-transparent">GLIM.</span>
                 </h1>
                 <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-emerald-700 to-teal-600 bg-clip-text text-transparent">
-                  Your AI Companion<br />Awaits.
+                  Your AIlien Companion<br />Awaits.
                 </h2>
               </div>
 
@@ -250,7 +250,7 @@ export default function Home() {
               <div className="relative z-10 flex flex-col items-center justify-center text-center space-y-4">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/glim-B4P6A7S2wwc0fGmf8mM3BAx2cEbBrJ.png"
-                  alt="GLIM - Your AI Companion"
+                  alt="GLIM - Your AIlien Companion"
                   width={300}
                   height={300}
                   className="w-full max-w-xs h-auto drop-shadow-lg"
@@ -373,7 +373,7 @@ export default function Home() {
             <div className="space-y-2">
               <p className="text-xs text-muted-foreground font-semibold">CA:</p>
               <div className="flex items-center gap-2">
-                <p className="text-xs font-mono text-muted-foreground">...pump</p>
+                <p className="text-xs font-mono text-muted-foreground">7Z2hwBJ1..</p>
                 <button 
                   onClick={copyToClipboard}
                   className="p-1 hover:bg-green-100 rounded transition"
