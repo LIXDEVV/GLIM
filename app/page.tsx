@@ -71,49 +71,49 @@ export default function Home() {
       name: 'Telegram',
       description: 'Talk to Blob',
       icon: '✈️',
-      link: '#'
+      link: 'https://www.youtube.com/'
     },
     {
       name: 'X (Twitter)',
       description: 'Follow updates',
       icon: '𝕏',
-      link: '#'
+      link: 'https://www.youtube.com/'
     },
     {
       name: 'Solana',
       description: 'Blockchain powered',
       icon: '◎',
-      link: '#'
+      link: 'https://www.youtube.com/'
     },
     {
       name: '0G',
       description: 'Data layer',
       icon: '⚡',
-      link: '#'
+      link: 'https://www.youtube.com/'
     },
     {
       name: 'Jupiter Station',
       description: 'Swap & trade',
       icon: '🪐',
-      link: '#'
+      link: 'https://www.youtube.com/'
     },
     {
       name: 'Neurix',
       description: 'AI integration',
       icon: '🤖',
-      link: '#'
+      link: 'https://www.youtube.com/'
     },
     {
       name: 'Pump.fun',
       description: 'Token launch',
       icon: '🚀',
-      link: '#'
+      link: 'https://www.youtube.com/'
     },
     {
       name: 'DexScreener',
       description: 'Trading charts',
       icon: '📊',
-      link: '#'
+      link: 'https://www.youtube.com/'
     }
   ];
 
@@ -185,7 +185,7 @@ export default function Home() {
 
             {/* CTA Button */}
             <div className="flex items-center gap-4">
-              <a href="https://t.me/Glimpse_AI_bot" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-2 bg-accent text-accent-foreground px-6 py-2 rounded-full font-semibold hover:bg-green-600 transition">
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-2 bg-accent text-accent-foreground px-6 py-2 rounded-full font-semibold hover:bg-green-600 transition">
                 <span>💚</span> Talk to GLIM
               </a>
 
@@ -232,7 +232,7 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="https://t.me/Glimpse_AI_bot" target="_blank" rel="noopener noreferrer" className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition flex items-center justify-center gap-2">
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition flex items-center justify-center gap-2">
                   <span>💚</span> Talk to GLIM
                 </a>
                 <a href="https://docs.example.com" target="_blank" rel="noopener noreferrer" className="border border-foreground text-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-50 transition">
@@ -297,7 +297,7 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               {ecosystem.map((item, idx) => (
-                <a key={idx} href={item.link} className="border border-border rounded-lg p-6 bg-white hover:bg-green-50/50 transition text-center shadow-sm">
+                <a key={idx} href={item.link} target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-6 bg-white hover:bg-green-50/50 transition text-center shadow-sm">
                   <div className="text-3xl mb-3 flex justify-center">{item.icon}</div>
                   <h3 className="text-sm font-bold mb-1 text-foreground">{item.name}</h3>
                   <p className="text-muted-foreground text-xs">{item.description}</p>
@@ -318,37 +318,37 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm">
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
                 <h3 className="text-xl font-bold mb-4 text-foreground">How Blob Works</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   Blob is an AI agent that lives on Telegram. It uses advanced language models to understand and respond to your messages. Every interaction helps Blob learn and improve.
                 </p>
-                <button className="text-accent hover:text-green-700 transition text-sm font-medium">Learn More →</button>
-              </div>
+                <span className="text-accent hover:text-green-700 transition text-sm font-medium">Learn More →</span>
+              </a>
 
-              <div className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm">
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
                 <h3 className="text-xl font-bold mb-4 text-foreground">Community & Governance</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   Blob is owned by its community. Token holders can vote on new features, ecosystem decisions, and the direction of development.
                 </p>
-                <button className="text-accent hover:text-green-700 transition text-sm font-medium">Join Community →</button>
-              </div>
+                <span className="text-accent hover:text-green-700 transition text-sm font-medium">Join Community →</span>
+              </a>
 
-              <div className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm">
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
                 <h3 className="text-xl font-bold mb-4 text-foreground">Security & Privacy</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   Your conversations with Blob are encrypted and private. We never sell your data. Your privacy is paramount.
                 </p>
-                <button className="text-accent hover:text-green-700 transition text-sm font-medium">Privacy Policy →</button>
-              </div>
+                <span className="text-accent hover:text-green-700 transition text-sm font-medium">Privacy Policy →</span>
+              </a>
 
-              <div className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm">
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
                 <h3 className="text-xl font-bold mb-4 text-foreground">Build on Blob</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   Developers can build integrations and plugins on top of Blob. Join our developer community and create the future.
                 </p>
-                <button className="text-accent hover:text-green-700 transition text-sm font-medium">Developer Docs →</button>
-              </div>
+                <span className="text-accent hover:text-green-700 transition text-sm font-medium">Developer Docs →</span>
+              </a>
             </div>
           </div>
         )}
@@ -398,19 +398,19 @@ export default function Home() {
               </button>
             </div>
             <div className="flex gap-4 text-sm text-muted-foreground flex-wrap justify-center md:justify-end">
-              <a href="#" className="hover:text-foreground transition">PRIVACY</a>
-              <a href="#" className="hover:text-foreground transition flex items-center gap-1">
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">PRIVACY</a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition flex items-center gap-1">
                 <span>✈️</span> TELEGRAM
               </a>
-              <a href="#" className="hover:text-foreground transition flex items-center gap-1">
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition flex items-center gap-1">
                 <span>𝕏</span> X
               </a>
-              <a href="#" className="hover:text-foreground transition">SOLANA</a>
-              <a href="#" className="hover:text-foreground transition">0G</a>
-              <a href="#" className="hover:text-foreground transition">JUPITER STATION</a>
-              <a href="#" className="hover:text-foreground transition">NEURIX</a>
-              <a href="#" className="hover:text-foreground transition">PUMP.FUN</a>
-              <a href="#" className="hover:text-foreground transition">DEXSCREENER</a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">SOLANA</a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">0G</a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">JUPITER STATION</a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">NEURIX</a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">PUMP.FUN</a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition">DEXSCREENER</a>
             </div>
           </div>
         </div>
