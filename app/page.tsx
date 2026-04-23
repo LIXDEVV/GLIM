@@ -235,7 +235,7 @@ export default function Home() {
                 <a href="https://t.me/Glimpse_AI_bot" target="_blank" rel="noopener noreferrer" className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition flex items-center justify-center gap-2">
                   <span>💚</span> Talk to GLIM
                 </a>
-                <a href="https://docs.example.com" target="_blank" rel="noopener noreferrer" className="border border-foreground text-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-50 transition">
+                <a href="https://github.com/search?q=glim+ai&type=code" target="_blank" rel="noopener noreferrer" className="border border-foreground text-foreground px-8 py-3 rounded-full font-semibold hover:bg-green-50 transition">
                   Read the Docs
                 </a>
               </div>
@@ -342,8 +342,8 @@ export default function Home() {
                 <span className="text-accent hover:text-green-700 transition text-sm font-medium">Privacy Policy →</span>
               </a>
 
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
-                <h3 className="text-xl font-bold mb-4 text-foreground">Build on Blob</h3>
+              <a href="https://github.com/search?q=glim+ai&type=code" target="_blank" rel="noopener noreferrer" className="border border-border rounded-lg p-8 bg-white hover:bg-green-50/50 transition shadow-sm block">
+                <h3 className="text-xl font-bold mb-4 text-foreground">Build on Glim</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   Developers can build integrations and plugins on top of Glim. Join our developer community and create the future.
                 </p>
