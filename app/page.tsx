@@ -373,7 +373,7 @@ export default function Home() {
             <div className="space-y-2">
               <p className="text-xs text-muted-foreground font-semibold">CA:</p>
               <div className="flex items-center gap-2">
-                <p className="text-xs font-mono text-muted-foreground">6HnsbhB1PijkESfrYdbvk...</p>
+                <p className="text-xs font-mono text-muted-foreground">...pump</p>
                 <button 
                   onClick={copyToClipboard}
                   className="p-1 hover:bg-green-100 rounded transition"
