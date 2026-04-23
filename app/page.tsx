@@ -185,7 +185,7 @@ export default function Home() {
 
             {/* CTA Button */}
             <div className="flex items-center gap-4">
-              <a href="https://glim-sage.vercel.app/" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-2 bg-accent text-accent-foreground px-6 py-2 rounded-full font-semibold hover:bg-green-600 transition">
+              <a href="https://glim-bot/" target="_blank" rel="noopener noreferrer" className="hidden sm:flex items-center gap-2 bg-accent text-accent-foreground px-6 py-2 rounded-full font-semibold hover:bg-green-600 transition">
                 <span>💚</span> Talk to GLIM
               </a>
 
