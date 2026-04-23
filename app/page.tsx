@@ -24,7 +24,7 @@ export default function Home() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText('7Z2hwBJ1XZjX8MbXLuXdh4jQTrCX574LfbEbFwjapump');
+    navigator.clipboard.writeText('...pump');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -373,7 +373,7 @@ export default function Home() {
             <div className="space-y-2">
               <p className="text-xs text-muted-foreground font-semibold">CA:</p>
               <div className="flex items-center gap-2">
-                <p className="text-xs font-mono text-muted-foreground">7Z2hwBJ1..</p>
+                <p className="text-xs font-mono text-muted-foreground">...pump</p>
                 <button 
                   onClick={copyToClipboard}
                   className="p-1 hover:bg-green-100 rounded transition"
